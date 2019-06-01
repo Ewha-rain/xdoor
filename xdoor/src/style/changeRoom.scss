@@ -1,0 +1,51 @@
+$normal: #2196F3;
+$warning: #FF9800;
+$danger: #F44336;
+$over: #9C27B0;
+
+.border-box {
+  border: 1px solid #eeeeee;
+  padding: 14px;
+  border-radius: 6px;
+  .a-set {
+    cursor: pointer;
+    color: #13227a;
+    font-size: 0.9em;
+    .iconfont {
+      color: #13227a;
+    }
+  }
+  .userInfo {
+    position: relative;
+    width: 96%;
+    margin: 10px auto;
+    background: #fdfaf3;
+    border-radius: 4px;
+    padding: 14px 0 14px 14px;
+    .icon-close {
+      z-index: 10;
+      cursor: pointer;
+      position: absolute;
+      right: 14px;
+      top: 14px;
+      color: #aaaaaa;
+    }
+  }
+  .other-box {
+    position: relative;
+    width: 96%;
+    margin: 10px auto;
+    background: #f3fdfd;
+    border-radius: 4px;
+    padding: 14px 0 14px 14px;
+  }
+}
+
+.color-money {
+  font-size: 16px;
+  color: $danger;
+}
+
+/deep/ .el-message {
+  z-index: 9999999 !important;
+}

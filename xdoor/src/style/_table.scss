@@ -1,0 +1,107 @@
+@import "../style/style";
+
+body {
+  /*background: #f5f5f5;*/
+}
+
+.form-search {
+  width: calc(100% - 20px);
+  background: #f5f5f5;
+  padding: 10px;
+  margin: 12px 0;
+}
+
+.form-search .el-form {
+  display: flex;
+  align-items: center;
+}
+
+.form-search .el-form .el-form-item {
+  margin-bottom: 0;
+}
+
+//.el-table th>.cell {
+//  background-color: #EEF1F6 !important;
+//  color: #121212;
+//}
+
+#quill-upload {
+  display: none;
+}
+
+.news-content {
+  img {
+    width: 100% !important;
+  }
+}
+
+.img-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    margin-right: 10px;
+  }
+}
+
+.active {
+  width: 14px;
+  height: 14px;
+  background: #aaa;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+
+.active-gray {
+  margin: 0 auto;
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+  background: #28f62c !important;
+}
+
+.action {
+  button:nth-child(1) {
+    margin-bottom: 10px;
+  }
+}
+
+.demo-table-expand {
+  font-size: 0;
+}
+
+.demo-table-expand label {
+  width: 90px;
+  color: #99a9bf;
+}
+
+.demo-table-expand .el-form-item {
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 50%;
+}
+
+.el-form-item__content {
+  line-height: 0 !important;
+}
+
+.el-upload__tip {
+  margin-top: 17px !important;
+  margin-bottom: 10px !important;
+}
+
+.el-select {
+  width: 110px;
+}
+
+.el-input__inner {
+  line-height: normal !important;
+}
+
+
+.el-upload__input {
+  display: block !important;
+  position: absolute;
+  z-index: -1;
+}

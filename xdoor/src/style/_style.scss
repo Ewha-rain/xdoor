@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+$main: #2196F3;
+//$main: #333333;
+$success: #388E3C;
+$warn: #F57C00;
+$danger: #E64A19;
+
+$common: #232323;
+$darkGary: #464646;
+$info: #666;
+$littleGary: #ddd;
+$white: #ffffff;
+
+.el-form-item.is-required .el-form-item__label:before {
+  color: #333;
+}
+
+.el-upload-error {
+  color: #f56c6c;
+  font-size: 12px;
+  line-height: 1;
+  padding-top: 4px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.el-input__inner {
+  color: #999999;
+}
+
+.img-card {
+  width: 94%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    margin-right: 10px;
+  }
+  margin-bottom: 10px;
+}

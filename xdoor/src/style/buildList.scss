@@ -1,0 +1,178 @@
+$no: #2196F3;
+$has: #FFCCBC;
+$empty: white;
+$appoint: #B3E5FC;
+
+$normal: #2196F3;
+$warning: #FF9800;
+$danger: #F44336;
+$over: #9C27B0;
+
+$online: #4CAF50;
+$offline: #F44336;
+
+.tag-no {
+  background: $no;
+  color: white;
+}
+
+.tag-has {
+  background: $has;
+  color: white;
+}
+
+.tag-empty {
+  background: $empty;
+  border: 1px solid #aaaaaa;
+}
+
+.tag-appoint {
+  background: $appoint;
+}
+
+.tag-waring {
+  background: $warning;
+  color: white;
+}
+
+.tag-danger {
+  background: $danger;
+  color: white;
+}
+
+.tag-over {
+  background: $over;
+  color: white;
+}
+
+.li-no {
+  background: $no;
+  color: white;
+  p {
+    color: white;
+  }
+}
+
+.li-appoint {
+  background: $appoint;
+}
+
+.li-has {
+  background: $has;
+  color: white;
+  p {
+    color: white;
+  }
+}
+
+.li-warning {
+  background: $warning;
+  color: white;
+  p {
+    color: white;
+  }
+}
+
+.li-danger {
+  background: $danger;
+  color: white;
+  p {
+    color: white;
+  }
+}
+
+.li-over {
+  background: $over;
+  color: white;
+  p {
+    color: white;
+  }
+}
+
+.grid-content {
+  //margin-bottom: 30px;
+}
+
+.build-title {
+  .build-name {
+    font-size: 1.2em;
+    margin-right: 20px;
+  }
+
+  .build-tag {
+    margin-right: 6px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+  }
+}
+
+.build-list {
+  margin-top: 30px;
+  border-bottom: 1px solid #eeeeee;
+  position: relative;
+  width: 100%;
+  .el-row {
+    margin-bottom: 0;
+  }
+  .build-number {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    //padding: 10px 40px 0 40px ;
+  }
+  .build-li {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    border: 1px solid #eeeeee;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    .number {
+      margin-top: 20px;
+      display: inline-block;
+    }
+    .ic-list {
+      display: block;
+      margin-top: 18px;
+      text-align: center;
+      .iconfont {
+
+      }
+      p {
+        font-size: 0.9em;
+      }
+    }
+    .iconfont {
+      color: white;
+    }
+    .icon-people:before {
+      color: white;
+    }
+    .icon-lock:before {
+      position: absolute;
+      left: 8px;
+      top: 8px;
+      color: #aaaaaa;
+    }
+    .lock-online:before {
+      color: $online!important;
+    }
+    .lock-offline:before {
+      color: $offline!important;
+    }
+  }
+
+  .build-li:hover {
+    border: 1px solid #2196F3;
+  }
+
+}
+
+.rentInfo {
+  p {
+    padding-top: 8px;
+  }
+}

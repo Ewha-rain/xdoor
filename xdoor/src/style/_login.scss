@@ -1,0 +1,85 @@
+@import "../style/style";
+
+.login-container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: $white;
+  .login-form {
+    position: absolute;
+    width: 30%;
+    padding: 35px 35px 15px 35px;
+    left: 50%;
+    top: 36%;
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 30px $littleGary;
+    .el-form-item {
+      margin-bottom: 26px;
+    }
+  }
+
+  .title-container {
+    position: relative;
+    .title {
+      font-size: 26px;
+      color: $darkGary;
+      margin: 0 auto 40px auto;
+      text-align: center;
+    }
+  }
+  .login-button {
+    width: 100%;
+    margin-bottom: 30px;
+    height: 40px;
+  }
+}
+
+.checkcode {
+  position: relative;
+  width: 100%;
+  .el-input__inner {
+    width: 50%!important;
+  }
+
+  .pointer{
+    position: absolute;
+    width: 25%;
+    height: 40px;
+    padding: 0;
+    z-index: 1;
+    background: #ddd;
+    line-height: 40px;
+    top: 0;
+    right: 25%;
+    text-align: center;
+  }
+  canvas {
+    position: absolute;
+    width: 25%;
+    height: 40px;
+    padding: 2px 0;
+    z-index: 1;
+    background: #ddd;
+    top: 0;
+    right: 24%;
+    text-align: center;
+  }
+
+  .ver_btn {
+    text-align: center;
+    border: none;
+    color: #f4f4f4;
+    line-height: 40px;
+    height: 40px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: $main;
+    width: 25%;
+  }
+}
