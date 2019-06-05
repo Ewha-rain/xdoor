@@ -128,8 +128,8 @@
     },
 
     created() {
-      this.selectRoom();
-      this.selectData();
+      // this.selectRoom();
+      // this.selectData();
     },
 
     methods: {

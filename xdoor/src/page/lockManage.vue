@@ -47,8 +47,17 @@
         <br/>
 
         <!--数据表格-->
-        <el-table
+        <!-- <el-table
           v-loading="loading"
+          ref="multipleTable"
+          border
+          highlightCurrentRow
+          :data="resData"
+          style="width: 100%"
+          @row-click="handleTableChange"
+          @selection-change="handleSelectionChange"
+          size="medium"> -->
+          <el-table
           ref="multipleTable"
           border
           highlightCurrentRow
@@ -207,7 +216,7 @@
     },
 
     created() {
-      this.selectData();
+      // this.selectData();
     },
 
     methods: {
